@@ -1,5 +1,6 @@
 package studentpayment;
 
+// Student.java - Student Class
 public class Student {
     // Attributes for all Students
     protected String lastName;
@@ -26,7 +27,7 @@ public class Student {
     }
 
     public String getFirstName() {
-        return lastName;
+        return firstName;
     }
 
     public void setFirstName(String firstName) {
